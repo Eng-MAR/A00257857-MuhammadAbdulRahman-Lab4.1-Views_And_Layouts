@@ -81,7 +81,7 @@
         android:id="@+id/eview"
         android:layout_width="394dp"
         android:layout_height="29dp"
-        android:text="Current Goal Score is: 2"
+        android:text="Current Goal Score is: 7"
         android:textSize="20dp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -115,36 +115,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.704" />
 
-    <RadioGroup
-        android:id="@+id/radioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
 
     <RadioButton
         android:id="@+id/ausradioButton"
         android:layout_width="36dp"
         android:layout_height="30dp"
-        android:buttonTint="@color/purple_200"
+        android:buttonTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintHorizontal_bias="0.205"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485"/>
+        app:layout_constraintVertical_bias="0.045" />
 
     <RadioButton
         android:id="@+id/engradioButton"
         android:layout_width="36dp"
         android:layout_height="30dp"
-        android:buttonTint="@color/purple_200"
+        android:buttonTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintHorizontal_bias="0.205"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04"/>
-    </RadioGroup>
+        app:layout_constraintVertical_bias="0.485" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
